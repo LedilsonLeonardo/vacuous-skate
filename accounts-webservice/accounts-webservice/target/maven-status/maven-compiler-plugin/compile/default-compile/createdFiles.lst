@@ -1,0 +1,12 @@
+com\sensedia\xml\bank\Account.class
+com\sensedia\xml\bank\GetAccountRequest.class
+com\soapwebservice\accounts\AccountsApplication.class
+com\sensedia\xml\bank\GetAccountResponse.class
+com\sensedia\xml\bank\package-info.class
+com\soapwebservice\accounts\AccountRepository.class
+com\soapwebservice\accounts\AccountEndpoint.class
+com\sensedia\xml\bank\ObjectFactory.class
+com\sensedia\xml\bank\GetAllAccountsRequest.class
+com\sensedia\xml\bank\GetAllAccountsResponse.class
+com\sensedia\xml\bank\LISTTYPE.class
+com\soapwebservice\accounts\Config.class

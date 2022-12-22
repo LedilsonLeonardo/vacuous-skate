@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.3.2 
+Consulte <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
+Gerado em: 2022.11.29 às 09:44:42 AM BRT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.sensedia.com/xml/bank">
+    <schemaBindings map="false">
+      <package name="com.sensedia.xml.bank"/>
+    </schemaBindings>
+    <bindings scd="tns:getAccountRequest">
+      <class ref="com.sensedia.xml.bank.GetAccountRequest"/>
+    </bindings>
+    <bindings scd="tns:getAccountResponse">
+      <class ref="com.sensedia.xml.bank.GetAccountResponse"/>
+    </bindings>
+    <bindings scd="~tns:Account">
+      <class ref="com.sensedia.xml.bank.Account"/>
+    </bindings>
+    <bindings scd="tns:getAllAccountsRequest">
+      <class ref="com.sensedia.xml.bank.GetAllAccountsRequest"/>
+    </bindings>
+    <bindings scd="tns:getAllAccountsResponse">
+      <class ref="com.sensedia.xml.bank.GetAllAccountsResponse"/>
+    </bindings>
+    <bindings scd="~tns:LIST_TYPE">
+      <class ref="com.sensedia.xml.bank.LISTTYPE"/>
+    </bindings>
+  </bindings>
+</bindings>
+
